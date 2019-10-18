@@ -1,6 +1,6 @@
 package com.Exercise12PooShape.model;
 
-public class Shape implements Shapeable {
+public abstract class Shape implements Shapeable, Somethingable {
 
 	@Override
 	public String draw() {

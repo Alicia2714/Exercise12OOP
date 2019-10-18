@@ -2,7 +2,7 @@ package com.Exercise12PooShape.model;
 
 import java.lang.Math;
 
-public class Square {
+public class Square extends Shape {
 	private double side;
 	
 	public Square() {
@@ -28,6 +28,12 @@ public class Square {
 	
 	public void setSquare(double side) {
 		this.side = side;
+	}
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

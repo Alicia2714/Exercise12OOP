@@ -7,6 +7,9 @@ public class Triangle extends Shape {
 	//variable declaration
 	private double base;
 	private double height;
+	public double area;
+	private double perimeter;
+	protected String name;
 	
 	public Triangle() {
 		
@@ -25,6 +28,12 @@ public class Triangle extends Shape {
 		return Math.sqrt(Math.pow(base, 2) + Math.pow(height, 2));
 	}
 	
+	public double CalculatePerimeter() {
+		this.perimeter = Math.sqrt(Math.pow(this.base, 2)+Math.pow(this.height, 2)); 
+		
+		return 0;
+	}
+	
 	//getters and setters
 	public double getBase() {
 		return base;
@@ -40,6 +49,12 @@ public class Triangle extends Shape {
 	
 	public void setHeight(double height) {
 		this.height = height;
+	}
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
