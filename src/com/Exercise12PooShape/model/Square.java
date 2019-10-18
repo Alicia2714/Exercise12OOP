@@ -14,11 +14,11 @@ public class Square {
 	}
 	
 	public double CalculateArea(double side) {
-		return (Math.pow(side, 2)*Math.pow(side, 2));
+		return side*side;
 	}
 	
 	public double CalculatePerimeter(double side) {
-		return Math.pow(side, 2)*4;
+		return side*4;
 	}
 	
 	//getters and setters
